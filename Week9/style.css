@@ -5,14 +5,20 @@ body{
 }
 /* login input boxes */
 input{
+  display: inline-block;
   margin: 1%;
   border: none;
   border-bottom: 0.05em solid grey;
   outline: none;
+  width: 60%;
 }
 /* login page submit button */
 button[type=submit]{
   margin: 3%;
+}
+.backB{
+  display: block;
+  position: relative;
 }
 /*second page*/
 ul{
@@ -22,6 +28,7 @@ ul{
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
+  width: 80%;
 }
 
 li a{
