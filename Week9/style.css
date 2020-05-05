@@ -1,0 +1,39 @@
+body{
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2%;
+}
+/* login input boxes */
+input{
+  margin: 1%;
+  border: none;
+  border-bottom: 0.05em solid grey;
+  outline: none;
+}
+/* login page submit button */
+button[type=submit]{
+  margin: 3%;
+}
+/*second page*/
+ul{
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a{
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover{
+  background-color: #555;
+  color: white;
+}
+/*end*/
