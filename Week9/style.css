@@ -73,6 +73,9 @@ li a:hover{
 .alert{
   display: none;
 }
+#cc {
+  display: none;
+}
 
 /* if the screen exceeds this size then do these actions */
 @media screen and (min-width:770px){
