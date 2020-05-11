@@ -1,0 +1,108 @@
+body{
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2%;
+  margin: auto;
+  font-size: 0.9em;
+}
+/* login input boxes */
+.login{
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+.form{
+  margin: auto;
+  text-align: left;
+}
+.loginf{
+  display: inline-block;
+  border: none;
+  border-bottom: 0.05em solid grey;
+  outline: none;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+label{
+  display: inline-block;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+/* login page submit button */
+button[type=submit]{
+  margin: 5%;
+  padding: 2% 3%;
+  border-radius: 2em;
+  border: none;
+  font-size: 1em;
+}
+.backB{
+  display: block;
+  position: relative;
+  margin: 5%;
+}
+/*second page*/
+ul{
+  display: inline-block;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  background-color: #f1f1f1;
+  width: 90%;
+  font-size: 1.1em;
+}
+
+li a{
+  display: block;
+  color: #000;
+  padding: 2%;
+  text-decoration: none;
+  width:auto;
+}
+
+/* Change the link color on hover */
+li a:hover{
+  background-color: #555;
+  color: white;
+}
+/*end*/
+
+/*alert box */
+.alert{
+  display: none;
+}
+#cc {
+  display: none;
+}
+
+/* if the screen exceeds this size then do these actions */
+@media screen and (min-width:770px){
+  /* The alert message box */
+  .alert {
+    padding: 20px;
+    background-color: #48d2ff; /* blue */
+    color: white;
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+
+}
